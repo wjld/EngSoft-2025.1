@@ -193,6 +193,7 @@ class Hmw1
         [['A man, a plan, a canal -- Panama', true],
         ["Madam, I'm Adam!", true],
         ['Abracadabra', false]]
+        .all?{|s, b| s.palindrome? == b}
     end
 
     def self.p6c
